@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#ffffff" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="22sp"
+        android:id="@+id/title_text"
+        android:text="分享到"
+        android:visibility="gone"
+        android:layout_margin="10dp"
+        ></TextView>
+    <View 
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:background="#00ffff"
+        android:visibility="gone"
+        />
+    
+    <GridView
+        android:id="@+id/grid_view"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:columnWidth="100dp"
+        android:numColumns="auto_fit" >
+    </GridView>
+    
+    <Button 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="取消"
+        android:gravity="center"
+        android:visibility="gone"
+        android:id="@+id/cancle_share_button"
+        />
+
+</LinearLayout><!-- From: file:/home/clg/Git_Pro/niuco_android/niuco/res/layout/lenovo_share_window.xml -->

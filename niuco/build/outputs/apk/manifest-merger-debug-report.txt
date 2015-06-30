@@ -1,0 +1,179 @@
+-- Merging decision tree log ---
+manifest
+ADDED from AndroidManifest.xml:1:1
+	xmlns:android
+		ADDED from AndroidManifest.xml:1:11
+	package
+		ADDED from AndroidManifest.xml:2:5
+	android:versionName
+		ADDED from AndroidManifest.xml:4:5
+	android:versionCode
+		ADDED from AndroidManifest.xml:3:5
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+uses-sdk
+ADDED from AndroidManifest.xml:6:5
+MERGED from niuco_android.library:UniversalImageLoader1.9.4:unspecified:7:5
+MERGED from niuco_android.library:actionbarsherlock4.4.0:unspecified:7:5
+MERGED from com.android.support:support-v4:22.1.0:20:5
+MERGED from niuco_android:pullToRefreshLibrary:unspecified:7:5
+MERGED from niuco_android:viewpagerindicator:unspecified:7:5
+MERGED from com.android.support:support-v4:22.1.0:20:5
+	android:targetSdkVersion
+		ADDED from AndroidManifest.xml:8:9
+	android:minSdkVersion
+		ADDED from AndroidManifest.xml:7:9
+uses-permission#android.permission.INTERNET
+ADDED from AndroidManifest.xml:10:9
+MERGED from niuco_android.library:android-async-http1.4.7:unspecified:7:5
+	android:name
+		ADDED from AndroidManifest.xml:10:26
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from AndroidManifest.xml:12:9
+	android:name
+		ADDED from AndroidManifest.xml:12:26
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from AndroidManifest.xml:13:9
+	android:name
+		ADDED from AndroidManifest.xml:13:26
+uses-permission#android.permission.GET_TASKS
+ADDED from AndroidManifest.xml:15:5
+	android:name
+		ADDED from AndroidManifest.xml:15:22
+application
+ADDED from AndroidManifest.xml:17:5
+MERGED from niuco_android.library:android-async-http1.4.7:unspecified:9:5
+MERGED from niuco_android.library:actionbarsherlock4.4.0:unspecified:11:5
+MERGED from com.android.support:support-v4:22.1.0:22:5
+MERGED from niuco_android:pullToRefreshLibrary:unspecified:11:5
+MERGED from com.android.support:support-v4:22.1.0:22:5
+	android:label
+		ADDED from AndroidManifest.xml:20:9
+	android:allowBackup
+		ADDED from AndroidManifest.xml:18:9
+	android:icon
+		ADDED from AndroidManifest.xml:19:9
+	android:name
+		ADDED from AndroidManifest.xml:21:9
+activity#cn.niuco.ui.splash.SplashActivity
+ADDED from AndroidManifest.xml:22:9
+	android:label
+		ADDED from AndroidManifest.xml:24:13
+	android:theme
+		ADDED from AndroidManifest.xml:25:13
+	android:name
+		ADDED from AndroidManifest.xml:23:13
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:26:13
+action#android.intent.action.MAIN
+ADDED from AndroidManifest.xml:27:17
+	android:name
+		ADDED from AndroidManifest.xml:27:25
+category#android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:28:17
+	android:name
+		ADDED from AndroidManifest.xml:28:27
+activity#cn.niuco.ui.activity.productdetailActivity
+ADDED from AndroidManifest.xml:31:9
+	android:theme
+		ADDED from AndroidManifest.xml:33:13
+	android:name
+		ADDED from AndroidManifest.xml:32:13
+activity#cn.niuco.ui.activity.ImagePagerActivity
+ADDED from AndroidManifest.xml:35:9
+	android:theme
+		ADDED from AndroidManifest.xml:36:19
+	android:name
+		ADDED from AndroidManifest.xml:35:19
+activity#cn.niuco.ui.activity.UersInfoActivity
+ADDED from AndroidManifest.xml:38:9
+	android:theme
+		ADDED from AndroidManifest.xml:39:19
+	android:name
+		ADDED from AndroidManifest.xml:38:19
+activity#cn.niuco.ui.activity.SetUserInfoActivity
+ADDED from AndroidManifest.xml:41:9
+	android:theme
+		ADDED from AndroidManifest.xml:42:19
+	android:name
+		ADDED from AndroidManifest.xml:41:19
+activity#cn.niuco.ui.activity.HomeActivity
+ADDED from AndroidManifest.xml:44:9
+	android:theme
+		ADDED from AndroidManifest.xml:45:13
+	android:name
+		ADDED from AndroidManifest.xml:44:19
+activity#cn.niuco.ui.activity.LoginActivity
+ADDED from AndroidManifest.xml:47:9
+	android:theme
+		ADDED from AndroidManifest.xml:48:13
+	android:name
+		ADDED from AndroidManifest.xml:47:19
+activity#cn.niuco.ui.activity.CommentActivity
+ADDED from AndroidManifest.xml:50:9
+	android:theme
+		ADDED from AndroidManifest.xml:51:19
+	android:name
+		ADDED from AndroidManifest.xml:50:19
+activity#cn.niuco.ui.activity.ClassifyActivity
+ADDED from AndroidManifest.xml:53:9
+	android:theme
+		ADDED from AndroidManifest.xml:54:19
+	android:name
+		ADDED from AndroidManifest.xml:53:19
+activity#cn.niuco.ui.activity.PKlistActivity
+ADDED from AndroidManifest.xml:56:9
+	android:theme
+		ADDED from AndroidManifest.xml:57:19
+	android:name
+		ADDED from AndroidManifest.xml:56:19
+activity#cn.niuco.MainActivity
+ADDED from AndroidManifest.xml:59:9
+	android:theme
+		ADDED from AndroidManifest.xml:60:19
+	android:name
+		ADDED from AndroidManifest.xml:59:19
+activity#com.tencent.tauth.AuthActivity
+ADDED from AndroidManifest.xml:63:9
+	android:noHistory
+		ADDED from AndroidManifest.xml:66:13
+	android:name
+		ADDED from AndroidManifest.xml:64:13
+	android:launchMode
+		ADDED from AndroidManifest.xml:65:13
+intent-filter#android.intent.action.VIEW+android.intent.category.BROWSABLE+android.intent.category.DEFAULT
+ADDED from AndroidManifest.xml:67:13
+action#android.intent.action.VIEW
+ADDED from AndroidManifest.xml:68:17
+	android:name
+		ADDED from AndroidManifest.xml:68:25
+category#android.intent.category.DEFAULT
+ADDED from AndroidManifest.xml:69:17
+	android:name
+		ADDED from AndroidManifest.xml:69:27
+category#android.intent.category.BROWSABLE
+ADDED from AndroidManifest.xml:70:17
+	android:name
+		ADDED from AndroidManifest.xml:70:27
+data
+ADDED from AndroidManifest.xml:71:17
+	android:scheme
+		ADDED from AndroidManifest.xml:71:23
+activity#com.tencent.connect.common.AssistActivity
+ADDED from AndroidManifest.xml:74:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:77:13
+	android:configChanges
+		ADDED from AndroidManifest.xml:76:13
+	android:theme
+		ADDED from AndroidManifest.xml:78:13
+	android:name
+		ADDED from AndroidManifest.xml:75:13
+activity#cn.niuco.wxapi.WXEntryActivity
+ADDED from AndroidManifest.xml:81:9
+	android:exported
+		ADDED from AndroidManifest.xml:83:13
+	android:name
+		ADDED from AndroidManifest.xml:82:13
+android:uses-permission#android.permission.READ_PHONE_STATE
+IMPLIED from AndroidManifest.xml:1:1 reason: com.loopj.android.http has a targetSdkVersion < 4

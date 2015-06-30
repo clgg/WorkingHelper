@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/user_login_head_menu"
+        android:orderInCategory="1"
+        android:showAsAction="ifRoom"
+        android:title="@string/user_login_head_title"
+        android:icon="@drawable/userimage_not_login"/>
+    <item
+        android:id="@+id/share_head_menu"
+        android:orderInCategory="2"
+        android:showAsAction="ifRoom"
+        android:title="@string/share_head_title"
+        android:icon="@drawable/share2"/>
+
+</menu><!-- From: file:/home/clg/Git_Pro/niuco_android/niuco/res/menu/user_head_menu.xml -->

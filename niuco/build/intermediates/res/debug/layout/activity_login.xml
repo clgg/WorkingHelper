@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFaa2121"
+
+    android:orientation="vertical" >
+    <!--     android:background="@drawable/welcome_background" -->
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="40dp"
+            android:layout_marginTop="80dp"
+            android:src="@drawable/ic_launcher" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="乐疯跑，像风一样自由"
+            android:textColor="#ffffffff"
+            android:textSize="24sp" />
+
+        <LinearLayout
+            android:id="@+id/loginView"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="50dp"
+            android:layout_marginTop="80dp"
+            android:gravity="center_horizontal"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/qq_login"
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:src="@drawable/qq_login_selector" />
+
+            <ImageView
+                android:layout_width="180dp"
+                android:layout_height="0.5dp"
+                android:background="#ffffffff" />
+
+            <ImageView
+                android:id="@+id/weibo_login"
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:src="@drawable/weibo_login_selector" />
+
+            <ImageView
+                android:layout_width="180dp"
+                android:layout_height="0.5dp"
+                android:background="#ffffffff" />
+
+            <ImageView
+                android:id="@+id/weixin_login"
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:src="@drawable/weixin_login_selector" />
+
+            <ImageView
+                android:layout_width="180dp"
+                android:layout_height="0.5dp"
+                android:background="#ffffffff" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView><!-- From: file:/home/clg/Git_Pro/niuco_android/niuco/res/layout/activity_login.xml -->

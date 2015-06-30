@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/home/clg/Git_Pro/niuco_android/niuco/build/intermediates/exploded-aar/niuco_android.library/actionbarsherlock4.4.0/unspecified/res/values-w600dp-v13/values.xml -->
+    <eat-comment/>
+    <integer name="abs__max_action_buttons">5</integer>
+</resources>

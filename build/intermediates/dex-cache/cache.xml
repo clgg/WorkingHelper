@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/clg/Git_Pro/niuco_android/niuco/build/intermediates/exploded-aar/com.android.support/support-v4/22.1.0/libs/internal_impl-22.1.0.jar"
+        jumboMode="false"
+        revision="21.1.0"
+        sha1="025cb89f2896c63200ff4c2e6c467a95691d880a">
+        <dex dex="/home/clg/Git_Pro/niuco_android/niuco/build/intermediates/pre-dexed/debug/internal_impl-22.1.0-2817f3c0dead3ab635b73da8ac48ba6cf1202ca7.jar" />
+    </item>
+    <item
+        jar="/home/clg/Git_Pro/niuco_android/niuco/libs/ormlite-android-4.49.jar"
+        jumboMode="false"
+        revision="21.1.0"
+        sha1="ecfae85e17f2472852fa8298952f9d52f6a6bfa4">
+        <dex dex="/home/clg/Git_Pro/niuco_android/niuco/build/intermediates/pre-dexed/debug/ormlite-android-4.49-50cee4f4a79b8c9c3a68570ecda82a307e970094.jar" />
+    </item>
+    <item
+        jar="/home/clg/Git_Pro/niuco_android/niuco/build/intermediates/exploded-aar/niuco_android.library/actionbarsherlock4.4.0/unspecified/classes.jar"
+        jumboMode="false"
+        revision="21.1.0"
+        sha1="896f10204e7fdce35d2c302ee4e2b9854d9af6e4">
+        <dex dex="/home/clg/Git_Pro/niuco_android/niuco/build/intermediates/pre-dexed/debug/classes-9ea68cd64a4810aba32c497d0b354ea58181453e.jar" />
+    </item>
+    <item
+        jar="/home/clg/Git_Pro/niuco_android/niuco/libs/fastjson-1.2.4.jar"
+        jumboMode="false"
+        revision="21.1.0"
+        sha1="fbcf8415e32859b473b336e5ac6422ee69b1185b">
+        <dex dex="/home/clg/Git_Pro/niuco_android/niuco/build/intermediates/pre-dexed/debug/fastjson-1.2.4-40660dbdb8403c04c5745a9535252c49f0f4a4ac.jar" />
+    </item>
+    <item
+        jar="/home/clg/Git_Pro/niuco_android/niuco/libs/jsoup-1.7.2.jar"
+        jumboMode="false"
+        revision="21.1.0"
+        sha1="872693211fd68d1c4e116cf90021603207725e19">
+        <dex dex="/home/clg/Git_Pro/niuco_android/niuco/build/intermediates/pre-dexed/debug/jsoup-1.7.2-543da1b7a070101f462846bcc99b88be242d1806.jar" />
+    </item>
+    <item
+        jar="/home/clg/Git_Pro/niuco_android/niuco/libs/qq.jar"
+        jumboMode="false"
+        revision="21.1.0"
+        sha1="2dd5147e853e5af9c7000b25be4d7bd2bc8c6977">
+        <dex dex="/home/clg/Git_Pro/niuco_android/niuco/build/intermediates/pre-dexed/debug/qq-8ad13a4b801168a3e1fffe186f35aa1796145a78.jar" />
+    </item>
+    <item
+        jar="/home/clg/Git_Pro/niuco_android/niuco/build/intermediates/exploded-aar/niuco_android.library/android-async-http1.4.7/unspecified/classes.jar"
+        jumboMode="false"
+        revision="21.1.0"
+        sha1="7461782759d080b4831c0274945f84cf2c889810">
+        <dex dex="/home/clg/Git_Pro/niuco_android/niuco/build/intermediates/pre-dexed/debug/classes-0952cc7a0aedd7f30519973eece377c3cff019c4.jar" />
+    </item>
+    <item
+        jar="/home/clg/Git_Pro/niuco_android/niuco/libs/wechat.jar"
+        jumboMode="false"
+        revision="21.1.0"
+        sha1="47f4993168154fa73377d7470b9f6887d48a8023">
+        <dex dex="/home/clg/Git_Pro/niuco_android/niuco/build/intermediates/pre-dexed/debug/wechat-64fa475aa8b59a7205a84f29d438036b680ad75c.jar" />
+    </item>
+    <item
+        jar="/home/clg/Git_Pro/niuco_android/niuco/build/intermediates/exploded-aar/niuco_android/viewpagerindicator/unspecified/classes.jar"
+        jumboMode="false"
+        revision="21.1.0"
+        sha1="5b4d86f2801d18fabbe1ab1a30ad18ef82244d98">
+        <dex dex="/home/clg/Git_Pro/niuco_android/niuco/build/intermediates/pre-dexed/debug/classes-018d7643410dfd7609e81228c101439608f63d4c.jar" />
+    </item>
+    <item
+        jar="/home/clg/android-sdk-linux/extras/android/m2repository/com/android/support/support-annotations/22.1.0/support-annotations-22.1.0.jar"
+        jumboMode="false"
+        revision="21.1.0"
+        sha1="281bc6c58ecb3644c23fbc5ee0452019f67b4d5d">
+        <dex dex="/home/clg/Git_Pro/niuco_android/niuco/build/intermediates/pre-dexed/debug/support-annotations-22.1.0-45c78c7177e73201781ae33885e98405cb62b3a6.jar" />
+    </item>
+    <item
+        jar="/home/clg/Git_Pro/niuco_android/niuco/libs/ormlite-core-4.49.jar"
+        jumboMode="false"
+        revision="21.1.0"
+        sha1="9a8b276da6dada8141f614d3feba25a0e8589db7">
+        <dex dex="/home/clg/Git_Pro/niuco_android/niuco/build/intermediates/pre-dexed/debug/ormlite-core-4.49-d8045b7a2feee3c4f147aa9f0ba2bf487cf9b069.jar" />
+    </item>
+    <item
+        jar="/home/clg/Git_Pro/niuco_android/niuco/build/intermediates/exploded-aar/com.android.support/support-v4/22.1.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.0"
+        sha1="eeebabdfd8203f6ab639ccea4ffa1f20e1adee3a">
+        <dex dex="/home/clg/Git_Pro/niuco_android/niuco/build/intermediates/pre-dexed/debug/classes-ce624a743e6610aef94b022f31f4355fe84ec584.jar" />
+    </item>
+    <item
+        jar="/home/clg/Git_Pro/niuco_android/niuco/libs/sina.jar"
+        jumboMode="false"
+        revision="21.1.0"
+        sha1="06e990ea2d7b7ccd30cea6c5367314d7314d9f40">
+        <dex dex="/home/clg/Git_Pro/niuco_android/niuco/build/intermediates/pre-dexed/debug/sina-f7680611661b81e275f24b54c44b716d580f03a0.jar" />
+    </item>
+    <item
+        jar="/home/clg/Git_Pro/niuco_android/niuco/libs/RecyclerView.jar"
+        jumboMode="false"
+        revision="21.1.0"
+        sha1="14d500eeb7128db6c0f9b55f166c42eacf00f3b6">
+        <dex dex="/home/clg/Git_Pro/niuco_android/niuco/build/intermediates/pre-dexed/debug/RecyclerView-0fa452926999a13ebbe20242adc34304946ab473.jar" />
+    </item>
+    <item
+        jar="/home/clg/Git_Pro/niuco_android/niuco/libs/lenovo_share_sdk1.jar"
+        jumboMode="false"
+        revision="21.1.0"
+        sha1="cd05da3d0313d9b86a6d6a11c604bc2e50b86ff8">
+        <dex dex="/home/clg/Git_Pro/niuco_android/niuco/build/intermediates/pre-dexed/debug/lenovo_share_sdk1-24a4bc3e27391422454872b49a7ed34200a1d3cf.jar" />
+    </item>
+    <item
+        jar="/home/clg/Git_Pro/niuco_android/niuco/build/intermediates/exploded-aar/niuco_android.library/UniversalImageLoader1.9.4/unspecified/classes.jar"
+        jumboMode="false"
+        revision="21.1.0"
+        sha1="87df6325d5e7c3b96909c0f7afad2764a636e47c">
+        <dex dex="/home/clg/Git_Pro/niuco_android/niuco/build/intermediates/pre-dexed/debug/classes-b0c5ba262e68a148849dff08e9a71cc6218bef20.jar" />
+    </item>
+    <item
+        jar="/home/clg/Git_Pro/niuco_android/niuco/build/intermediates/exploded-aar/niuco_android/pullToRefreshLibrary/unspecified/classes.jar"
+        jumboMode="false"
+        revision="21.1.0"
+        sha1="6f634ff6604816eed1cc19e41fab898c42350fb9">
+        <dex dex="/home/clg/Git_Pro/niuco_android/niuco/build/intermediates/pre-dexed/debug/classes-e64accd0cd5bdf7a5a19ad99fb4802e939ae99fe.jar" />
+    </item>
+
+</items>

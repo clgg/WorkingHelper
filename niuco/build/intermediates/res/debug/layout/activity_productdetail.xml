@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/drawer_layout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"/>
+
+            <cn.niuco.ui.widget.CustomGallery
+                android:id="@+id/gallery"
+                android:layout_width="fill_parent"
+                android:layout_height="200dp"/>
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="75dp">
+
+                <ImageView
+                    android:id="@+id/iv_head"
+                    android:layout_width="65dp"
+                    android:layout_height="65dp"
+                    android:layout_marginLeft="1dp"/>
+
+                <TextView
+                    android:id="@+id/tv_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/iv_head"
+                    android:layout_toRightOf="@+id/iv_head"
+                    android:text="name"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@id/iv_head"
+                    android:layout_toRightOf="@id/iv_head"
+                    android:text="分享者"/>
+
+                <ImageView
+                    android:id="@+id/iv_like"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:src="@drawable/favorite"/>
+
+                <TextView
+                    android:id="@+id/tv_like"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@id/iv_like"
+                    android:layout_alignParentBottom="true"
+                    android:paddingLeft="14dp"
+                    android:text="like"/>
+
+                <ImageView
+                    android:id="@+id/iv_share"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_toLeftOf="@id/iv_like"
+                    android:src="@drawable/share2"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@id/iv_share"
+                    android:layout_alignParentBottom="true"
+                    android:textColor="@color/bg_blue_deep"
+                    android:paddingLeft="14dp"
+                    android:text="分享"/>
+            </RelativeLayout>
+            <WebView
+                android:id="@+id/wv"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+                </WebView>
+            <RelativeLayout
+                android:id="@+id/rl_list"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+                <RelativeLayout
+                    android:id="@+id/ll_top"
+                    android:layout_width="fill_parent"
+                    android:layout_height="50dp">
+                    <ImageView
+                        android:id="@+id/iv_pic"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="#FF00B2"
+                        android:src="@drawable/pcomment"/>
+                    <TextView
+                        android:id="@+id/tv_ccount"
+                        android:layout_marginTop="10dp"
+                        android:layout_toRightOf="@id/iv_pic"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="评论数"/>
+                    <TextView
+                        android:id="@+id/tv_comment"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginTop="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="发表评论"
+                        android:textColor="#07a393"/>
+                </RelativeLayout>
+                <ListView
+                    android:id="@+id/lv_comment"
+                    android:layout_below="@id/ll_top"
+                    android:layout_width="fill_parent"
+                    android:layout_height="40dp"/>
+            </RelativeLayout>
+            <Button
+                android:id="@+id/bt_more"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="评论"/>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout><!-- From: file:/home/clg/Git_Pro/niuco_android/niuco/res/layout/activity_productdetail.xml -->

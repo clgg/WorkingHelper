@@ -1,0 +1,6 @@
+include ':library:actionbarsherlock4.4.0', ':pullToRefreshLibrary', ':viewpagerindicator'
+include ':library:UniversalImageLoader1.9.4'
+include ':niuco'
+include ':library:android-async-http1.4.7'
+project(':pullToRefreshLibrary').projectDir = new File('library/pullToRefreshLibrary')
+project(':viewpagerindicator').projectDir = new File('library/viewpagerindicator')

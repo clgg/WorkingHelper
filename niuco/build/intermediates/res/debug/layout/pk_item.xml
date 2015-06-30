@@ -1,0 +1,27 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:id="@+id/rl_parent"
+                android:layout_width="280dp"
+                android:padding="10dp"
+                android:layout_height="fill_parent"
+                tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:id="@+id/ll_top"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:background="#00ffff">
+    <TextView
+        android:id="@id/tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="25dp"
+        android:text="name"/>
+    </LinearLayout>
+
+
+</RelativeLayout>
+<!-- From: file:/home/clg/Git_Pro/niuco_android/niuco/res/layout/pk_item.xml -->

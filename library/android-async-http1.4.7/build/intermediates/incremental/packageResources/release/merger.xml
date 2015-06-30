@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/home/clg/Git_Pro/niuco_android/library/android-async-http1.4.7/res"/><source path="/home/clg/Git_Pro/niuco_android/library/android-async-http1.4.7/build/generated/res/rs/release"/><source path="/home/clg/Git_Pro/niuco_android/library/android-async-http1.4.7/build/generated/res/generated/release"/></dataSet><dataSet config="release"><source path="/home/clg/Git_Pro/niuco_android/library/android-async-http1.4.7/build-types/release/res"/></dataSet><mergedItems/></merger>

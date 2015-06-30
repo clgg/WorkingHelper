@@ -1,0 +1,86 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.niuco"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="9"
+        android:targetSdkVersion="14" />
+        <!-- 网络访问权限 -->
+        <uses-permission android:name="android.permission.INTERNET" />
+        <!-- 文件写入SD卡权限 -->
+        <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+        <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+    <uses-permission android:name="android.permission.GET_TASKS" />  允许程序获取当前或最近运行的应用
+    <!-- android:theme="@style/AppTheme"-->
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:name="cn.niuco.library.NiucoAppliaction">
+        <activity
+            android:name="cn.niuco.ui.splash.SplashActivity"
+            android:label="Niuco"
+            android:theme="@style/Theme.Sherlock.Light">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="cn.niuco.ui.activity.productdetailActivity"
+            android:theme="@style/Theme.Sherlock.Light.NoActionBar">
+        </activity>
+        <activity android:name="cn.niuco.ui.activity.ImagePagerActivity"
+                  android:theme="@style/Theme.Sherlock.Light.NoActionBar">
+        </activity>
+        <activity android:name="cn.niuco.ui.activity.UersInfoActivity"
+                  android:theme="@style/Theme.Sherlock.Light">
+        </activity>
+        <activity android:name="cn.niuco.ui.activity.SetUserInfoActivity"
+                  android:theme="@style/Theme.Sherlock.Light">
+        </activity>
+        <activity android:name="cn.niuco.ui.activity.HomeActivity"
+            android:theme="@style/Theme.Sherlock.Light">
+        </activity>
+        <activity android:name="cn.niuco.ui.activity.LoginActivity"
+            android:theme="@style/Theme.Sherlock.Light">
+        </activity>
+        <activity android:name="cn.niuco.ui.activity.CommentActivity"
+                  android:theme="@style/Theme.Sherlock.Light">
+        </activity>
+        <activity android:name="cn.niuco.ui.activity.ClassifyActivity"
+                  android:theme="@style/Theme.Sherlock.Light">
+        </activity>
+        <activity android:name="cn.niuco.ui.activity.PKlistActivity"
+                  android:theme="@style/Theme.Sherlock.Light">
+        </activity>
+        <activity android:name="cn.niuco.MainActivity"
+                  android:theme="@style/Theme.Sherlock.Light">
+        </activity>
+        <!-- ============================QQ============================ -->
+        <activity
+            android:name="com.tencent.tauth.AuthActivity"
+            android:launchMode="singleTask"
+            android:noHistory="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="tencent1103396097" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.tencent.connect.common.AssistActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <!-- ==========================WeChat============================== -->
+
+        <activity
+            android:name="cn.niuco.wxapi.WXEntryActivity"
+            android:exported="true"
+            ></activity>
+    </application>
+</manifest>

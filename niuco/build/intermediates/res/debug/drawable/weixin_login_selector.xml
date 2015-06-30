@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true" android:drawable="@drawable/wechat_highlight"></item>
+    <item android:drawable="@drawable/wechat_normal"></item>
+</selector><!-- From: file:/home/clg/Git_Pro/niuco_android/niuco/res/drawable/weixin_login_selector.xml -->

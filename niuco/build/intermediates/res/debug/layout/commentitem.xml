@@ -1,0 +1,71 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="280dp"
+                android:layout_height="fill_parent"
+                tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/iv_head"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:src="@drawable/ic_launcher"
+        />
+
+    <TextView
+        android:id="@id/tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/iv_head"
+        android:text="name"/>
+
+    <TextView
+        android:id="@+id/tv_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/tv_name"
+        android:layout_below="@id/tv_name"
+        android:text="time"/>
+
+    <TextView
+        android:id="@+id/tv_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/tv_name"
+        android:layout_below="@id/tv_time"
+        android:text="aaaa"/>
+
+    <TextView
+        android:id="@+id/tv_like"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:text="0"
+        android:textSize="25dp"/>
+
+    <ImageView
+        android:id="@+id/iv_like"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginRight="2dp"
+        android:layout_toLeftOf="@id/tv_like"
+        android:src="@drawable/like"/>
+    <TextView
+        android:id="@+id/tv_delate"
+        android:layout_below="@id/iv_like"
+        android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="删除"/>
+
+    <TextView
+        android:id="@+id/bt_return"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:text="回复"/>
+
+</RelativeLayout>
+<!-- From: file:/home/clg/Git_Pro/niuco_android/niuco/res/layout/commentitem.xml -->
