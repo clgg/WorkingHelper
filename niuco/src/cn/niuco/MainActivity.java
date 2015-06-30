@@ -35,6 +35,8 @@ public class MainActivity extends SherlockFragmentActivity{
         list.add(Fragment1.newInstance());
         list.add(Fragment2.newInstance());
         list.add(Fragment3.newInstance());
+
+        Log.e("hello","clg");
         init();
     }
     private void init() {
